@@ -41,4 +41,16 @@ Backend : Node.js , Express.js , Mongoose , RestfulAPI
 
 
 
+
 <img width="518" height="299" alt="Screenshot 2025-10-21 211622" src="https://github.com/user-attachments/assets/67b2c090-8d0b-40b9-ab39-5d9943ef9cd5" />
+
+
+# fork the repo to see website
+
+# change director to frontend
+cd frontend
+
+# install dependencies 
+npm install
+npm install tailwindcss @tailwindcss/vite
+
