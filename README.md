@@ -1,14 +1,32 @@
-# MindScope
-Multimodal system that analyzes facial expressions, voice tone, and text to recognize emotional patterns linked to mental well-being.
+# MindScope 🧠✨
 
-Project Highlights
+Encouraging proactive mental health care through AI-powered emotional insights.
 
-Goes beyond diagnosing conditions like depression.
+MindScope is a multimodal system designed to understand and support mental well-being by analyzing text, voice, and facial expressions. By combining cutting-edge AI with an accessible, digital-first approach, MindScope helps users recognize emotional patterns and take proactive steps toward mental health care.
 
-Enhances emotional understanding and awareness.
+# Features
 
-Detects signs of stress and negative emotions early.
+# Text Analysis (Core Module)
 
-Encourages proactive mental health care.
+Model: DistilBERT-base-uncased (lightweight transformer from Hugging Face)
+Task: Sentiment and emotion classification on user’s transcribed speech
 
-Combines AI empathy with accessibility for a digital-first world.
+# Audio Emotion Recognition 
+
+Model: Wav2Vec2-base (Facebook AI) 
+Task: Detects emotions from speech using vocal tone, pitch, pace, and energy
+
+# Video Emotion Recognition 
+
+Activation: Enabled only with explicit camera consent
+Model: DeepFace or FER+ for facial emotion recognition
+Task: Real-time detection of facial expressions
+
+# Tech Stack
+
+NLP: Hugging Face Transformers (DistilBERT)
+Audio Processing: Wav2Vec2
+Computer Vision: DeepFace, FER+
+Frameworks: PyTorch, TensorFlow, OpenCV
+Frontend : React.js , Tailwind CSS , Javascript 
+Backend : Node.js , Express.js , Mongoose , RestfulAPI
