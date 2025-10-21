@@ -51,6 +51,6 @@ Backend : Node.js , Express.js , Mongoose , RestfulAPI
 cd frontend
 
 # install dependencies 
-npm install
-npm install tailwindcss @tailwindcss/vite
+$ npm install <br>
+$ npm install tailwindcss @tailwindcss/vite
 
