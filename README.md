@@ -13,7 +13,7 @@ Task: Sentiment and emotion classification on user’s transcribed speech
 
 # Audio Emotion Recognition 
 
-Model: openai-whisper-large-v3
+Model: openai-whisper-large-v3 <br>
 Task: Detects emotions from speech using vocal tone, pitch, pace, and energy
 
 # Image Emotion Recognition
@@ -22,9 +22,9 @@ Model : dima806/facial_emotions_image_detection
 
 # Video Emotion Recognition 
 
-Activation: Enabled only with explicit camera consent
-Model: DeepFace or FER+ for facial emotion recognition
-Task: Real-time detection of facial expressions
+
+Model: DeepFace or FER+ for facial emotion recognition <br>
+Task: Real-time detection of facial expressions <br>
 
 # Tech Stack
 
