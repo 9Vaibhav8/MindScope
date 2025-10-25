@@ -13,7 +13,7 @@ Task: Sentiment and emotion classification on user’s transcribed speech
 
 # Audio Emotion Recognition 
 
-Model: Wav2Vec2-base (Facebook AI) 
+Model: openai-whisper-large-v3
 Task: Detects emotions from speech using vocal tone, pitch, pace, and energy
 
 # Image Emotion Recognition
@@ -28,12 +28,12 @@ Task: Real-time detection of facial expressions
 
 # Tech Stack
 
-NLP: Hugging Face Transformers (DistilBERT)
-Audio Processing: Wav2Vec2
-Computer Vision: DeepFace, FER+
-Frameworks: PyTorch, TensorFlow, OpenCV
-Frontend : React.js , Tailwind CSS , Javascript 
-Backend : Node.js , Express.js , Mongoose , RestfulAPI
+NLP: Hugging Face Transformers (DistilBERT) <br>
+Audio Processing: Wav2Vec2 <br>
+Computer Vision: DeepFace, FER+ <br>
+Frameworks: PyTorch, TensorFlow, OpenCV <br>
+Frontend : React.js , Tailwind CSS , Javascript <br>
+Backend : Node.js , Express.js , MongoDB , RestfulAPI , FastAPI , 
 
 # Pipeline <br>
 <img width="518" height="299" alt="Screenshot 2025-10-21 211622" src="https://github.com/user-attachments/assets/67b2c090-8d0b-40b9-ab39-5d9943ef9cd5" />
