@@ -16,6 +16,10 @@ Task: Sentiment and emotion classification on user’s transcribed speech
 Model: Wav2Vec2-base (Facebook AI) 
 Task: Detects emotions from speech using vocal tone, pitch, pace, and energy
 
+# Image Emotion Recognition
+
+Model : dima806/facial_emotions_image_detection
+
 # Video Emotion Recognition 
 
 Activation: Enabled only with explicit camera consent
