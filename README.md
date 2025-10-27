@@ -47,3 +47,7 @@ cd frontend
 
 # install dependencies 
 $ npm install 
+
+cd backend
+
+$ pip install -r requirements.txt
