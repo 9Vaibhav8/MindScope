@@ -40,8 +40,12 @@ Backend : Node.js , Express.js , MongoDB , RestfulAPI , FastAPI ,
 
 # Installation and Setup 
 ```bash
+Backend Setup
+
+In the terminal 
+
 cd backend
-Run in the terminal
+npm install
 $ pip install -r requirements.txt
 
 mkdir .env
@@ -69,13 +73,35 @@ Go to multimodal.py
 Remove .editor  in import logic ( from moviepy.editor import VideoClip)
 
 For Running Backend -
+
+Run these commands in seperate terminal
 cd backend
-
 $ npm run dev
-
-Another Terminal
-
 python main.py 
+
+Frontend Setup
+
+cd frontend
+mkdir .env
+.env
+
+VITE_FIREBASE_API_KEY=your_firebase_api_key_here
+VITE_FIREBASE_AUTH_DOMAIN=your_project_auth_domain_here
+VITE_FIREBASE_PROJECT_ID=your_project_id_here
+VITE_FIREBASE_APP_ID=your_firebase_app_id_here
+
+For Vite_Firebase
+1-  Step 1: Go to Firebase Console
+ https://console.firebase.google.com
+2- Go to your project
+3- Click Add App and choose web or </>
+4-Firebase will now show you your web app’s config
+5- Copy and Pase reuired config settings in you frontend .env
+
+npm install
+
+Running Frontend
+npm run dev 
 
 
 
