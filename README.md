@@ -48,6 +48,8 @@ In the terminal
 
 cd backend
 npm install
+
+# first move requirements.txt in backend folder 
 $ pip install -r requirements.txt
 
 mkdir .env
