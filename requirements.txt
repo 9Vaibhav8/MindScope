@@ -1,14 +1,18 @@
 huggingface_hub[hf_xet]
-python-multipart    
-requests   
+python-multipart
+requests
 google-generativeai
 xai-sdk
-python-dotenv pillow
-fastapi uvicorn
+python-dotenv
+pillow
+fastapi
+uvicorn
 tf-keras
-moviepy opencv-python fer
-librosa soundfile
-pillow huggingface_hub
-transformers torch 
+moviepy
+opencv-python
+fer
+librosa
+soundfile
+transformers
+torch
 pydantic
-
