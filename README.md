@@ -37,7 +37,8 @@ Frontend : React.js , Tailwind CSS , Javascript <br>
 Backend : Node.js , Express.js , MongoDB , RestfulAPI , FastAPI , 
 
 # Pipeline <br>
-<img width="518" height="299" alt="Screenshot 2025-10-21 211622" src="https://github.com/user-attachments/assets/67b2c090-8d0b-40b9-ab39-5d9943ef9cd5" />
+<img width="546" height="287" alt="image" src="https://github.com/user-attachments/assets/711665c2-a5ad-4945-8a2c-3fb800aa4d8f" />
+
 
 # Installation and Setup 
 ```bash
