@@ -29,7 +29,8 @@ Task: Real-time detection of facial expressions <br>
 # Tech Stack
 
 NLP: Hugging Face Transformers (DistilBERT) <br>
-Audio Processing: Wav2Vec2 <br>
+Audio Processing: openai-whisper-large-v3
+ <br>
 Computer Vision: DeepFace, FER+ <br>
 Frameworks: PyTorch, TensorFlow, OpenCV <br>
 Frontend : React.js , Tailwind CSS , Javascript <br>
