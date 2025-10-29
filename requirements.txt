@@ -10,4 +10,5 @@ moviepy opencv-python fer
 librosa soundfile
 pillow huggingface_hub
 transformers torch 
+pydantic
 
