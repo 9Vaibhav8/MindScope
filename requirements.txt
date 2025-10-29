@@ -1,13 +1,13 @@
-pip install huggingface_hub[hf_xet]
-pip install python-multipart    
-pip install requests   
-pip install google-generativeai
-pip install xai-sdk
-pip install  python-dotenv pillow
-pip install fastapi uvicorn
-pip install tf-keras
-pip install moviepy opencv-python fer
-pip install librosa soundfile
-pip install pillow huggingface_hub
-pip install transformers torch 
+huggingface_hub[hf_xet]
+python-multipart    
+requests   
+google-generativeai
+xai-sdk
+python-dotenv pillow
+fastapi uvicorn
+tf-keras
+moviepy opencv-python fer
+librosa soundfile
+pillow huggingface_hub
+transformers torch 
 
