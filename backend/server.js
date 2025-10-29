@@ -3,7 +3,7 @@ import cors from "cors";
 import dotenv from "dotenv";
 import connectDB from "./config/db.js";
 import userRoutes from "./routes/userRoutes.js";
-import chatRoutes from "./routes/chatRoutes.js";
+
 
 dotenv.config();
 const app = express();
@@ -13,7 +13,7 @@ app.use(express.json());
 
 
 app.use("/api/users", userRoutes);
-app.use("/api/chats", chatRoutes); 
+
 
 
 
