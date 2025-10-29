@@ -38,14 +38,77 @@ Backend : Node.js , Express.js , MongoDB , RestfulAPI , FastAPI ,
 # Pipeline <br>
 <img width="518" height="299" alt="Screenshot 2025-10-21 211622" src="https://github.com/user-attachments/assets/67b2c090-8d0b-40b9-ab39-5d9943ef9cd5" />
 
-# Running the Web App
-## Fork the repo 
-
-### Change directory to frontend
+# Installation and Setup 
 ```bash
-cd frontend
+Backend Setup
 
-# install dependencies 
-$ npm install 
-$ npm install tailwindcss @tailwindcss/vite
+In the terminal 
+
+cd backend
+npm install
+$ pip install -r requirements.txt
+
+mkdir .env
+
+Add these code in  .env
+PORT=5000                   
+MONGO_URI=mongodb+srv://<username>:<password>@cluster0.mongodb.net/<dbname>
+FIREBASE_PROJECT_ID=your_project_id
+FIREBASE_CLIENT_EMAIL=your_firebase_client_email
+FIREBASE_PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nYOUR_PRIVATE_KEY\n-----END PRIVATE KEY-----\n"
+
+For Firebase Configuration
+
+ 1. Go to Firebase Console
+ Visit https://console.firebase.google.com
+Log in with your Google account.
+2-Create or Select a Firebase Project
+3- Go to Project Overview -> Project Settings
+4- Go to Service Accounts
+5 - Generate new Private Key
+6-  From the downloaded JSON file copy the values of asked field in the env and paste there respectively
+
+' If importing module error shows in moviepy.editor  then :-'
+Go to multimodal.py
+Remove .editor  in import logic ( from moviepy.editor import VideoClip)
+
+For Running Backend -
+
+Run these commands in seperate terminal
+cd backend
+$ npm run dev
+python main.py 
+
+Frontend Setup
+
+cd frontend
+mkdir .env
+.env
+
+VITE_FIREBASE_API_KEY=your_firebase_api_key_here
+VITE_FIREBASE_AUTH_DOMAIN=your_project_auth_domain_here
+VITE_FIREBASE_PROJECT_ID=your_project_id_here
+VITE_FIREBASE_APP_ID=your_firebase_app_id_here
+
+For Vite_Firebase
+1-  Step 1: Go to Firebase Console
+ https://console.firebase.google.com
+2- Go to your project
+3- Click Add App and choose web or </>
+4-Firebase will now show you your web app’s config
+5- Copy and Pase reuired config settings in you frontend .env
+
+npm install
+
+Running Frontend
+npm run dev 
+
+
+
+
+
+
+
+
+
 
